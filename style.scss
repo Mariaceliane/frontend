@@ -1,0 +1,61 @@
+$cor-principal:rgb(245, 225, 202);
+$cor2: rgb(90, 141, 56);
+$formatacao:justify, width(50%) ;
+
+
+
+
+body{
+ background:$cor-principal;
+ width: 60% ;
+ font-size: justify;
+ font-family:"//www.dafont.com/pt/louis-george-caf.font";
+ 
+ 
+   
+}
+
+label{
+    
+    
+    color:$cor2;
+    letter-spacing: -1px;
+    text-align:justify ;
+    width:100%;
+    font-size: 15px;
+
+  
+}
+legend{
+    font-size: 12px;
+}
+
+div {
+   background-color: white; 
+   width: 85%;
+   text-shadow: 13px, 13px, red;
+   border:1px #ccc;
+
+   
+}
+
+p{
+    width: 100%;
+}
+
+datalist{
+    text-align: center;
+    
+}
+
+li{
+    color:blue;
+    
+}
+.sidenote{
+   float:left;
+   clear:right;
+}
+
+
+
